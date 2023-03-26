@@ -392,8 +392,15 @@ section .title::after {
 
 .teams .carousel .card .text {
     font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.teams .carousel .card .app-description{
+    text-align: left;
+    font-size: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .teams .carousel .card img {
