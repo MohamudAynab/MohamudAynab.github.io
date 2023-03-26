@@ -399,9 +399,26 @@ section .title::after {
 .teams .carousel .card .app-description{
     text-align: left;
     font-size: 15px;
-    overflow-x: auto;
-    overflow-y: hidden;
 }
+
+.app-button{
+    flex-direction: column;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 350;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.app-button:hover {
+    color: crimson;
+    background: black;
+}
+
+
 
 .teams .carousel .card img {
     height: 150px;
