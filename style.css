@@ -323,7 +323,7 @@ section .title::after {
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 50px 25px;
+    padding: 50px 30px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -341,7 +341,7 @@ section .title::after {
 }
 
 .services .serv-content .card i {
-    font-size: 50px;
+    font-size: 30px;
     color: crimson;
     transition: color 0.3s ease;
 }
@@ -364,9 +364,13 @@ section .title::after {
 }
 
 .teams .carousel .card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 450px;
     background: #222;
     border-radius: 6px;
-    padding: 25px 35px;
+    padding: 15px 20px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -377,41 +381,41 @@ section .title::after {
 }
 
 .teams .carousel .card .box {
+    display: flex;
     height: 450px;
+    padding: 50px 35px;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: left;
     overflow: hidden;
     transition: all 0.3s ease;
-    padding: 20px;
-    margin: 0 15px;
+    
 }
 
 .teams .carousel .card:hover .box {
     transform: scale(1.05);
 }
 
-.teams .carousel .card .text {
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.teams .carousel .card .app-description{
-    text-align: justify;;
+.teams .carousel .card p{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 200%;
     font-size: 15px;
 }
+
 
 .app-button{
-    position: inherit;
+    display: inline-block;
     background: crimson;
+    padding: 5px 10px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    border: 1px;
     color: #fff;
-    font-size: 15px;
-    font-weight: 500;
-    padding: 5px 5px;
-    margin-top: 20px;
-    border-radius: 9px;
     transition: all 0.3s ease;
+    align-self: baseline;
+    margin: auto;
+    
 }
 
 .app-button:hover {
@@ -421,7 +425,7 @@ section .title::after {
 
 
 
-.teams .carousel .card img {
+/* .teams .carousel .card img {
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -429,11 +433,11 @@ section .title::after {
     border: 5px solid crimson;
     transition: all 0.3s ease;
     margin-bottom: 15px;
-}
+} */
 
-.teams .carousel .card:hover img {
+/* .teams .carousel .card:hover img {
     border-color: #fff;
-}
+} */
 
 .owl-dots {
     text-align: center;
