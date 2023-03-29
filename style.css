@@ -55,7 +55,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 section .title {
@@ -364,7 +364,7 @@ section .title::after {
 
 .teams .carousel .card {
     background: #222;
-    border-radius: 6px;
+    border-radius: 6px; 
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
@@ -375,17 +375,17 @@ section .title::after {
     background: crimson;
 }
 
+/*Here is where all the responsiveness is for projects */
 .teams .carousel .card .box {
     display: flex;
-    /* height: 450px; */
+    height: 450px;
     /* padding: 50px 35px; */
     flex-direction: column;
-    /* align-items: left; */
+    align-items: left;
     align-items: center;
     justify-content: center;
-    /* overflow: hidden; */
+    overflow: hidden;
     transition: all 0.3s ease;
-    
 }
 
 .teams .carousel .card:hover .box {
@@ -736,3 +736,4 @@ footer span a:hover {
         line-height: 38px;
     }
 }
+
