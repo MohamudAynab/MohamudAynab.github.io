@@ -385,10 +385,11 @@ section .title::after {
 .teams .carousel .card .box {
     display: flex;
     height: 450px;
-    /* padding: 50px 35px; */
+    padding: 25px 35px;
     flex-direction: column;
-    align-items: left;
+    flex-wrap: nowrap;
     align-items: center;
+    justify-content: space-between;
     justify-content: center;
     overflow: hidden;
     transition: all 0.3s ease;
