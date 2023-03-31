@@ -31,14 +31,16 @@ html {
 
 /* all similar content styling codes */
 section {
-    padding: 100px 0px;
+    padding: 85px 0px;
 }
 
-.max-width {
+
+
+/* .max-width {                            //caused issues with the caorasel.
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
-}
+} */
 
 .about,
 .services,
@@ -390,7 +392,7 @@ section .title::after {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    justify-content: center;
+    /* justify-content: center; */
     overflow: hidden;
     transition: all 0.3s ease;
 }
@@ -418,25 +420,20 @@ section .title::after {
     border-color: #fff;
 }
 
-.teams .carousel .card p{
+/* .teams .carousel .card p{
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
-}
+} */
 
 
 .app-button{
-    display: inline-block;
     background: crimson;
     padding: 5px 10px;
     border-radius: 5px;
-    letter-spacing: 1px;
     border: 1px;
     color: #fff;
     transition: all 0.3s ease;
-    align-self: baseline;
-    margin: auto;
-    
 }
 
 .app-button:hover {
