@@ -31,14 +31,16 @@ html {
 
 /* all similar content styling codes */
 section {
-    padding: 100px 0px;
+    padding: 85px 0px;
 }
 
-.max-width {
+
+
+/* .max-width {                            //caused issues with the caorasel.
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
-}
+} */
 
 .about,
 .services,
@@ -51,7 +53,7 @@ footer {
 
 .about .about-content,
 .services .serv-content,
-.contact .contact-content {
+.teams,.contact .contact-content {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -317,11 +319,11 @@ section .title::after {
     content: "what i provide";
 }
 
-.services .serv-content{
+/* .services .serv-content{
     display: flex;
     
     
-}
+} */
 
 .services .serv-content .card {
     width: calc(33% - 20px);
@@ -390,7 +392,7 @@ section .title::after {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    justify-content: center;
+    /* justify-content: center; */
     overflow: hidden;
     transition: all 0.3s ease;
 }
@@ -418,25 +420,20 @@ section .title::after {
     border-color: #fff;
 }
 
-.teams .carousel .card p{
+/* .teams .carousel .card p{
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
-}
+} */
 
 
 .app-button{
-    display: inline-block;
     background: crimson;
     padding: 5px 10px;
     border-radius: 5px;
-    letter-spacing: 1px;
     border: 1px;
     color: #fff;
     transition: all 0.3s ease;
-    align-self: baseline;
-    margin: auto;
-    
 }
 
 .app-button:hover {
@@ -449,13 +446,13 @@ section .title::after {
     width: 150px;
     object-fit: cover;
     border-radius: 0%;
-    border: 5px solid crimson;
+    border: 1px solid crimson;
     transition: all 0.3s ease;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 .teams .carousel .card:hover img {
-    border-color: #fff;
+    border-color: #0f0f0f;
 }
 
 .owl-dots {
