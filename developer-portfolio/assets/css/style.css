@@ -241,18 +241,29 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.home .home-content a:hover {
+/* .home .home-content a:hover {
     color: crimson;
     background: none;
-}
+}  */
 
 /* about section styling */
 .about .title::after {
     content: "who i am";
 }
 
+/* .about-bg {
+   
+
+} */
+
 .about .about-content .left {
     width: 45%;
+}
+
+
+.column.right {
+    float: center;
+    margin-right: 1px;
 }
 
 .about .about-content .left img {
@@ -280,6 +291,10 @@ section .title::after {
     text-align: justify;
 }
 
+.about-svg {
+    background: url();
+}
+/* Download CV Button */
 .about .about-content .right a {
     display: inline-block;
     background: crimson;
@@ -287,11 +302,19 @@ section .title::after {
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
-    margin-top: 20px;
+    margin: 20px auto 0;
+    /* Adjusted margin for centering */
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
+    text-align: center;
+    /* Center text within the button */
+    display: inline-block;
+    /* Ensure it takes full width */
+   
 }
+
+
 
 .about .about-content .right a:hover {
     color: rgb(219, 20, 60);
@@ -299,15 +322,20 @@ section .title::after {
 }
 
 
-/* teams section styling */
+/* projects section styling */
 .projects .title::after {
     content: "code with me";
 }
 
+/* .projects {
+    background: url('/assets/images/slanted-gradient.svg') center center no-repeat;
+    background-size: cover;
+} */
+
+/*color for inside of project cards  */
 .projects .carousel .card {
-    background: fff;
     border-style: solid;
-    border-radius: 6px;
+    border-radius: 12px;
     box-shadow: 12px 12px 2px 1px rgba(219, 20, 60, 0.2);
     box-shadow: 1px 2px 12px 12px rgba(219, 20, 60, 0.2);
     padding: 25px 35px;
@@ -316,8 +344,10 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
+
+/* Project card color on hover */
 .carousel .card:hover {
-    background: crimson;
+    background: #fff;
 }
 
 /*Here is where all the responsiveness is for projects */
@@ -349,12 +379,11 @@ section .title::after {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
     transition: all 0.3s ease;
 }
 
 .projects .carousel .card:hover img {
-    border-color: #862222;
+    border-color: #ff0000;
 }
 
 .projects.carousel .card p {
@@ -365,19 +394,18 @@ section .title::after {
 
 
 .app-button {
-    background: crimson;
+    border: 2px solid crimson;
     color: #fff;
     padding: 10px 20px;
     border-radius: 6px;
     font-size: 16px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 
 .app-button:hover {
     color: crimson;
-    background: black;
+    background: none;
 }
 
 .projects .carousel .card img {
@@ -389,8 +417,8 @@ section .title::after {
     border-top-right-radius: 6px;
 }
 
-.teams .carousel .card:hover img {
-    border-color: #fff;
+.carousel .card:hover img {
+    border-color: green;
 }
 
 .owl-dots {
@@ -673,7 +701,7 @@ footer span a:hover {
     }
 
     .about .about-content .right .text,
-    .skills .skills-content .left .text {
+    .left .text {
         font-size: 19px;
     }
 
