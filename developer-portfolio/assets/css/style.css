@@ -241,6 +241,17 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
+.particles-bg {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* Position it behind other elements */
+}
+
 /* .home .home-content a:hover {
     color: crimson;
     background: none;

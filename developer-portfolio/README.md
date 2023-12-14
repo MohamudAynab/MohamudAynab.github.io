@@ -10,7 +10,7 @@ Portfolio repository where the magic happens!
 
 Hey, I'm on a mission to conquer the tech world! 🌎 I'm all about making a splash in the programming and web development universe. I eat, sleep, and breathe code. My portfolio is my showcase of passion, dedication, and love for all things tech!
 
-### My Goal
+### My Goal``
 
 My mission? To land a stellar gig where I can harness my coding superpowers for the greater good! 🦸‍♂️ I'm on the lookout for opportunities that let me flex my skills, learn even more, and create amazing digital experiences.
 
