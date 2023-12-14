@@ -1,15 +1,15 @@
 window.onload = function () {
-	// This will show pop-message
-	var popup = confirm(
-		"Whoopsie-daisy! 🙈 We're currently giving our site a makeover. Swing by again soon for a fancier experience! Thanks for your patience! 🚀",
-	);
+	// Show the pop-up message using a custom dialog
+	var popupMessage =
+		"Whoopsie-daisy! 🙈 We're currently giving our site a makeover. Swing by again soon for a fancier experience! Thanks for your patience! 🚀";
 
-	var closeButton = document.getElementById('closeButton');
+	// Display the custom confirm dialog
+	var popup = confirm(popupMessage);
+	p;
+	// If the user clicks "OK," no further action needed
+	if (!popup) {
+		// If the user clicks "Cancel," close the pop-up window
 
-	//adding a click event to the Close Button
-	closeButton.addEventListener('click', function () {
-		//Close the popup
 		window.close();
-	});
-
+	}
 };
